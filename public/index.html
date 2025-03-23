@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Poupança</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Análise de Poupança</h1>
+        <div class="goal">
+            <label for="goal">Valor Desejado:</label>
+            <input type="number" id="goal" value="15000" disabled>
+        </div>
+        <div class="current">
+            <label for="current">Valor Atual:</label>
+            <input type="number" id="current" value="0" disabled>
+        </div>
+        <div class="percentage">
+            <label>Porcentagem Alcançada:</label>
+            <span id="percentage">0%</span>
+        </div>
+        <div class="actions">
+            <button id="add">Adicionar Valor</button>
+            <button id="remove">Remover Valor</button>
+            <button id="correct">Corrigir Valor</button>
+        </div>
+        <div class="transactions">
+            <h2>Extrato</h2>
+            <ul id="transactions-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "savings": {
+    "goal": 15000,
+    "current": 400,
+    "transactions": [
+      {
+        "type": "Adicionado",
+        "amount": 400,
+        "month": "Março"
+      }
+    ]
+  }
+}
